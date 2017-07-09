@@ -1,0 +1,19 @@
+contentDir = "content"
+layoutDir = "layouts"
+publishDir = "public"
+buildDrafts = true
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Insula Digital Studio"
+canonifyURLs = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  title = "Insula Digital Studio"
+  description = "Crafting Digital Experience"
+  author = "Enzo Vezzaro"
+  variables = "Yes"
+  english = "EN"
