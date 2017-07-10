@@ -2,38 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Insula Digital Studio</title>
-    <link>https://enzovezzaro.github.io/insuladigitalstudio/categories/</link>
+    <link>https://enzovezzaro.github.io/categories/</link>
     <description>Recent content in Categories on Insula Digital Studio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 08 Jul 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://enzovezzaro.github.io/insuladigitalstudio/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://enzovezzaro.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>About</title>
+      <link>https://enzovezzaro.github.io/categories/about/</link>
+      <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://enzovezzaro.github.io/categories/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Development</title>
-      <link>https://enzovezzaro.github.io/insuladigitalstudio/categories/development/</link>
+      <link>https://enzovezzaro.github.io/categories/development/</link>
       <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://enzovezzaro.github.io/insuladigitalstudio/categories/development/</guid>
+      <guid>https://enzovezzaro.github.io/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Portfolio</title>
-      <link>https://enzovezzaro.github.io/insuladigitalstudio/categories/portfolio/</link>
+      <link>https://enzovezzaro.github.io/categories/portfolio/</link>
       <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://enzovezzaro.github.io/insuladigitalstudio/categories/portfolio/</guid>
+      <guid>https://enzovezzaro.github.io/categories/portfolio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vim</title>
-      <link>https://enzovezzaro.github.io/insuladigitalstudio/categories/vim/</link>
+      <link>https://enzovezzaro.github.io/categories/vim/</link>
       <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://enzovezzaro.github.io/insuladigitalstudio/categories/vim/</guid>
+      <guid>https://enzovezzaro.github.io/categories/vim/</guid>
       <description></description>
     </item>
     
