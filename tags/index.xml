@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Insula Digital Studio</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://www.insuladigitalstudio.com/tags/</link>
     <description>Recent content in Tags on Insula Digital Studio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Apr 2012 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.insuladigitalstudio.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>.Vimrc</title>
-      <link>http://localhost:1313/tags/.vimrc/</link>
+      <link>http://www.insuladigitalstudio.com/tags/.vimrc/</link>
       <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/.vimrc/</guid>
+      <guid>http://www.insuladigitalstudio.com/tags/.vimrc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About Us</title>
-      <link>http://localhost:1313/tags/about-us/</link>
+      <link>http://www.insuladigitalstudio.com/tags/about-us/</link>
       <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/about-us/</guid>
+      <guid>http://www.insuladigitalstudio.com/tags/about-us/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Clients</title>
-      <link>http://localhost:1313/tags/clients/</link>
+      <link>http://www.insuladigitalstudio.com/tags/clients/</link>
       <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/clients/</guid>
+      <guid>http://www.insuladigitalstudio.com/tags/clients/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Our Mission</title>
-      <link>http://localhost:1313/tags/our-mission/</link>
+      <link>http://www.insuladigitalstudio.com/tags/our-mission/</link>
       <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/our-mission/</guid>
+      <guid>http://www.insuladigitalstudio.com/tags/our-mission/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Plugins</title>
-      <link>http://localhost:1313/tags/plugins/</link>
+      <link>http://www.insuladigitalstudio.com/tags/plugins/</link>
       <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/plugins/</guid>
+      <guid>http://www.insuladigitalstudio.com/tags/plugins/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Portfolio</title>
-      <link>http://localhost:1313/tags/portfolio/</link>
+      <link>http://www.insuladigitalstudio.com/tags/portfolio/</link>
       <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/portfolio/</guid>
+      <guid>http://www.insuladigitalstudio.com/tags/portfolio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Selected Work</title>
-      <link>http://localhost:1313/tags/selected-work/</link>
+      <link>http://www.insuladigitalstudio.com/tags/selected-work/</link>
       <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/selected-work/</guid>
+      <guid>http://www.insuladigitalstudio.com/tags/selected-work/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Spf13 Vim</title>
-      <link>http://localhost:1313/tags/spf13-vim/</link>
+      <link>http://www.insuladigitalstudio.com/tags/spf13-vim/</link>
       <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/spf13-vim/</guid>
+      <guid>http://www.insuladigitalstudio.com/tags/spf13-vim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vim</title>
-      <link>http://localhost:1313/tags/vim/</link>
+      <link>http://www.insuladigitalstudio.com/tags/vim/</link>
       <pubDate>Fri, 06 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/vim/</guid>
+      <guid>http://www.insuladigitalstudio.com/tags/vim/</guid>
       <description></description>
     </item>
     
