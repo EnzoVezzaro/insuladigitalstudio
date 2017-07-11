@@ -37,3 +37,4 @@ config.codekit3
 .sass-cache/
 *.css.map
 public
+node_modules
