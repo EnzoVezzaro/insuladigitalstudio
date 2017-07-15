@@ -1,13 +1,14 @@
-var gulp = require('gulp');
+var gulp = require("gulp")
 var sass = require('gulp-sass');
 
-gulp.task('sass', function () {
-  return gulp.src('./static/**/*.scss')
-    .pipe(sass.sync().on('error', sass.logError))
-    .pipe(gulp.dest('./static'));
-    console.log("Ready!");
+gulp.task('sass', function(){
+  return gulp.src('static/css/main.scss')
+    .pipe(sass()) // Using gulp-sass
+    .pipe(gulp.dest('static/css'))
 });
 
-gulp.task('sass:watch', function () {
-  gulp.watch('./static/**/**/*.scss', ['sass']);
-});
+// Gulp watch syntax
+gulp.task('watch', function(){
+  gulp.watch('static/css/**/*.sass', ['sass']);
+  // Other watchers
+})

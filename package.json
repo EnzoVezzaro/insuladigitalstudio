@@ -11,9 +11,11 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
-    "gulp-watch": "^4.3.11"
+    "gulp-watch": "^4.3.11",
+    "gulp-watch-sass": "^1.1.4"
   },
   "dependencies": {
-    "blur-js": "^1.0.0"
+    "blur-js": "^1.0.0",
+    "nodemailer": "^4.0.1"
   }
 }

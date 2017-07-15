@@ -1,14 +1,16 @@
+<div class="modal-container">
   <div class="md-modal md-effect-18" id="modal-{{ .UniqueID }}">
     <div class="md-content">
       <h3>{{ .Title }}</h3>
-      <div>
-        <p>This is a modal window. You can do the following things with it:</p>
-        <ul>
-          <li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-          <li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-          <li><strong>Close:</strong> click on the button below to close the modal.</li>
-        </ul>
+      <div class="md-portfolio-content">
+        <div class="md-description">
+          <h4>{{ .Description }}</h4>
+          <p>{{ .Content }}</p>
+        </div>
       </div>
-      <button class="md-close">Close me!</button>
+      <a class="md-close">
+      <!--  <i class="fa fa-close"></i>-->
+      </a>
     </div>
   </div>
+</div>

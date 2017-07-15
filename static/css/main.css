@@ -179,7 +179,6 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  -webkit-appearance: button;
   cursor: pointer; }
 
 button[disabled],
@@ -324,7 +323,8 @@ body {
   background: #e74c3c;
   position: relative;
   border-radius: 3px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  max-width: 630px; }
   .md-content h3 {
     margin: 0;
     padding: 0.4em;
@@ -335,10 +335,10 @@ body {
     background: rgba(0, 0, 0, 0.1);
     border-radius: 3px 3px 0 0; }
   .md-content > div {
-    padding: 15px 40px 30px;
+    padding: 30px 20px;
     margin: 0;
     font-weight: 300;
-    font-size: 1.15em; }
+    font-size: 1em; }
     .md-content > div p {
       margin: 0;
       padding: 10px 0; }
@@ -347,10 +347,56 @@ body {
       padding: 0 0 30px 20px; }
       .md-content > div ul li {
         padding: 5px 0; }
-  .md-content button {
-    display: block;
-    margin: 0 auto;
-    font-size: 0.8em; }
+  .md-content .md-close {
+    position: absolute;
+    top: -22vh;
+    left: -24vw;
+    width: 100vw;
+    height: 100vh; }
+    .md-content .md-close i {
+      font-size: 1.2em; }
+  .md-content .md-portfolio-content {
+    display: flex;
+    padding-top: 15px; }
+    .md-content .md-portfolio-content .md-img-portfolio {
+      display: flex;
+      align-items: center; }
+      .md-content .md-portfolio-content .md-img-portfolio .md-img {
+        width: 200px;
+        height: 300px;
+        background-size: contain;
+        background-repeat: no-repeat; }
+    .md-content .md-portfolio-content .md-description > p {
+      padding: 0;
+      padding-left: 20px; }
+
+.md-list-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .md-list-container .md-columns {
+    display: flex;
+    width: 50%; }
+    .md-list-container .md-columns ul {
+      padding-bottom: 0; }
+      .md-list-container .md-columns ul li {
+        display: flex;
+        align-items: center;
+        padding: 15px 0; }
+        .md-list-container .md-columns ul li .img-md-list {
+          height: 100px;
+          width: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-right: 15px; }
+          .md-list-container .md-columns ul li .img-md-list img {
+            height: 100%; }
+        .md-list-container .md-columns ul li .text-md-list h4 {
+          margin-bottom: 0; }
+        .md-list-container .md-columns ul li .text-md-list p {
+          padding-top: 0;
+          font-size: 12px; }
 
 /* Individual modal styles with animations/transitions */
 /* Effect 18:  Slide from right with perspective on container */
@@ -411,6 +457,79 @@ body {
   transform-style: preserve-3d;
   transform-origin: 50% 100%;
   animation: OpenTop 0.5s forwards ease-in; }
+
+@media (max-width: 768px) {
+  .md-content > .md-portfolio-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+.md-link-portfolio {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 0 !important;
+  top: 23px; }
+
+.button {
+  display: inline-block;
+  font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  padding: .8em 1.4em;
+  padding-right: 4.7em;
+  background: #009ED8;
+  border: none;
+  color: white;
+  transition: .2s;
+  text-decoration: none;
+  width: 95px;
+  text-align: center; }
+  .button:before, .button:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: inherit;
+    padding-bottom: inherit;
+    width: 2.8em;
+    content: "\00a0";
+    font-family: 'FontAwesome', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    transition: .2s;
+    transform-origin: 50% 60%; }
+  .button:before {
+    background: rgba(0, 0, 0, 0.1); }
+  .button:hover {
+    background: #0079a5; }
+  .button:active, .button:focus {
+    background: #002e3f;
+    outline: none; }
+
+.arrow {
+  background: #FE5F55; }
+  .arrow:hover {
+    background: #fe2f22; }
+  .arrow:active, .arrow:focus {
+    background: #b90c01; }
+  .arrow:after {
+    content: "\F054"; }
+  .arrow:hover:after {
+    -webkit-animation: bounceright .3s alternate ease infinite;
+    animation: bounceright .3s alternate ease infinite; }
+
+@-webkit-keyframes bounceright {
+  from {
+    -webkit-transform: translateX(0); }
+  to {
+    -webkit-transform: translateX(3px); } }
+
+@keyframes bounceright {
+  from {
+    transform: translateX(0); }
+  to {
+    transform: translateX(3px); } }
 
 .l-viewport {
   position: relative;

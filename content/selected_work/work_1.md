@@ -1,14 +1,18 @@
 {
-    "title": "Victory",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.",
-    "tags": [ "portfolio", "selected-work", "clients" ],
-    "date": "2017-07-08",
+    "title": "Vape Cloud Shop",
+    "description": "E-commerce Vape Shop with big present in the Latin American Market. With more than 100 products online and hundreds of customers.",
+    "tags": [ "portfolio", "selected-work", "clients", "vapecloudshop" ],
+    "date": "2015-10-08",
     "categories": [
         "Portfolio"
     ],
-    "slug": "work-1",
-    "image": "/img/work-victory.jpg",
-    "slider": "left"
+    "slug": "vapecloudshop",
+    "image": "/img/vape-cloud-shop.jpg",
+    "slider": "left",
+    "scope": "Our client wanted an easy manageable site where being able to structure his business strategy and marketing Plan.",
+    "lenght": "2 Months",
+    "tech": "Wordpress, PHP, Adobe Suite, Mailchimp",
+    "link": "http://www.vapecloudshop.com"
 }
 
-Content of the file goes Here
+E-commerce Vape Shop with big present in the Latin American Market. With more than 100 products online and hundreds of customers, Vape Cloud Shop built its audience overtime offering them great customer service and support.

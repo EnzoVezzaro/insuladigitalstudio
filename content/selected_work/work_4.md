@@ -1,14 +1,18 @@
 {
-    "title": "Work 5",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.",
-    "tags": [ "portfolio", "selected-work", "clients" ],
-    "date": "2017-07-08",
+    "title": "Art Project United",
+    "description": "Art Project United is a visual art exhibition using social media challenging people and photographers both professional and amateur.",
+    "tags": [ "portfolio", "selected-work", "clients", "artprojectunited" ],
+    "date": "2016-10-22",
     "categories": [
         "Portfolio"
     ],
-    "slug": "work-1",
-    "image": "/img/work-alex-nowak.jpg",
-    "slider": ""
+    "slug": "artprojectunited",
+    "image": "/img/art-project-united.jpg",
+    "slider": "left",
+    "scope": "---",
+    "lenght": "4-5 Months",
+    "tech": "HUGO, HTML5, CSS, JAVASCRIPT, Adobe Suite, Mailchimp",
+    "link": "http://artprojectunited.com/"
 }
 
-Content of the file goes Here
+Art Project United is a visual art exhibition using social media challenging people and photographers both professional and amateur to set up, join together and their powerful images of people wearing the united tank top to show awareness concern us expressing our stories strength pride beauty history and that we are united.

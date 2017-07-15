@@ -6,6 +6,7 @@ baseURL = "http://www.insuladigitalstudio.com/"
 languageCode = "en-us"
 title = "Insula Digital Studio"
 canonifyURLs = true
+googleAnalytics= ""
 
 [taxonomies]
   category = "categories"
@@ -17,3 +18,4 @@ canonifyURLs = true
   author = "Enzo Vezzaro"
   variables = "Yes"
   english = "EN"
+  logo = "/img/logo.svg"

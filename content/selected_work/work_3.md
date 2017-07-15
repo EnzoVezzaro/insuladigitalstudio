@@ -1,14 +1,18 @@
 {
-    "title": "Alex Nowak",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.",
-    "tags": [ "portfolio", "selected-work", "clients" ],
-    "date": "2017-07-08",
+    "title": "Elige tu Presidente RD",
+    "description": "Political Website for online questionary about the Presidential Election in the Dominican Repiblic in 2016.",
+    "tags": [ "portfolio", "selected-work", "clients", "eligetupresidenterd" ],
+    "date": "2016-01-04",
     "categories": [
         "Portfolio"
     ],
-    "slug": "work-1",
-    "image": "/img/work-alex-nowak.jpg",
-    "slider": "right"
+    "slug": "eligetupresidenterd",
+    "image": "/img/elige-tu-presidente.jpg",
+    "slider": "right",
+    "scope": "The goal of the questionary was to register online and vote for your favorite candidate in the Presidential Election.",
+    "lenght": "3 Months",
+    "tech": "HTML, CSS, JAVASCRIPT, FIREBASE, JQUERY",
+    "link": "http://eligetupresidenterd.com/"
 }
 
-Content of the file goes Here
+Political Website for online questionary about the Presidential Election in the Dominican Repiblic in 2016.
