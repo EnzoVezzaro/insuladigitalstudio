@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Artprojectunited on Insula Digital Studio</title>
+    <link>/tags/artprojectunited/</link>
+    <description>Recent content in Artprojectunited on Insula Digital Studio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Oct 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/artprojectunited/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Art Project United</title>
+      <link>/selected_work/artprojectunited/</link>
+      <pubDate>Sat, 22 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/selected_work/artprojectunited/</guid>
+      <description>Art Project United is a visual art exhibition using social media challenging people and photographers both professional and amateur to set up, join together and their powerful images of people wearing the united tank top to show awareness concern us expressing our stories strength pride beauty history and that we are united.</description>
+    </item>
+    
+  </channel>
+</rss>

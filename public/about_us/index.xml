@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About_us on Insula Digital Studio</title>
+    <link>/about_us/</link>
+    <description>Recent content in About_us on Insula Digital Studio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/about_us/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Us</title>
+      <link>/about_us/about-us/</link>
+      <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/about_us/about-us/</guid>
+      <description>Well, Insula Digital Studio is an experienced digital studio in Web Technologies such as Website, Web App, and Native Applications. As well as, graphic work for all of the different kind of marketing material our clients need.  We&amp;rsquo;re a group of Very Creative Oriented People minded to make our planet a better place through the Technologies we have available today.</description>
+    </item>
+    
+    <item>
+      <title>Our Mission</title>
+      <link>/about_us/our-mission/</link>
+      <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/about_us/our-mission/</guid>
+      <description> Simple  Building creative and social initiatives  Bringing people together through empatic products that improve people&amp;rsquo;s lives
+Let&amp;rsquo;s change the world together! </description>
+    </item>
+    
+  </channel>
+</rss>
