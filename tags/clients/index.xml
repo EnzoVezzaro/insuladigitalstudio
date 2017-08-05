@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Clients on Insula Digital Studio</title>
+    <link>http://www.insuladigitalstudio.com/tags/clients/</link>
+    <description>Recent content in Clients on Insula Digital Studio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Nov 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.insuladigitalstudio.com/tags/clients/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Voces de la Calle</title>
+      <link>http://www.insuladigitalstudio.com/selected_work/vocesdelacalle/</link>
+      <pubDate>Wed, 16 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.insuladigitalstudio.com/selected_work/vocesdelacalle/</guid>
+      <description>Dominican Film, now in premier in the United States, about the life and struggles of 3 friends trying to get ahead with their musical projects fighting for a better life and better future.</description>
+    </item>
+    
+    <item>
+      <title>Art Project United</title>
+      <link>http://www.insuladigitalstudio.com/selected_work/artprojectunited/</link>
+      <pubDate>Sat, 22 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.insuladigitalstudio.com/selected_work/artprojectunited/</guid>
+      <description>Art Project United is a visual art exhibition using social media challenging people and photographers both professional and amateur to set up, join together and their powerful images of people wearing the united tank top to show awareness concern us expressing our stories strength pride beauty history and that we are united.</description>
+    </item>
+    
+    <item>
+      <title>Elige tu Presidente RD</title>
+      <link>http://www.insuladigitalstudio.com/selected_work/eligetupresidenterd/</link>
+      <pubDate>Mon, 04 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.insuladigitalstudio.com/selected_work/eligetupresidenterd/</guid>
+      <description>Political Website for online questionary about the Presidential Election in the Dominican Repiblic in 2016.</description>
+    </item>
+    
+    <item>
+      <title>Vape Cloud Shop</title>
+      <link>http://www.insuladigitalstudio.com/selected_work/vapecloudshop/</link>
+      <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.insuladigitalstudio.com/selected_work/vapecloudshop/</guid>
+      <description>E-commerce Vape Shop with big present in the Latin American Market. With more than 100 products online and hundreds of customers, Vape Cloud Shop built its audience overtime offering them great customer service and support.</description>
+    </item>
+    
+  </channel>
+</rss>
