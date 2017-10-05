@@ -14,36 +14,20 @@
             {{ partial "nav.html" }}
             <ul class="l-main-content main-content">
               {{ partial "intro.html" }}
+              <!-- Selected Work -->
               <li class="l-section section">
                 <div class="work">
                   <h2 class="--title">Selected work</h2>
                   <div class="work--lockup">
-                    <ul class="slider">
-                      {{ range where .Data.Pages "Section" "selected_work" }}
-                        {{ .Render "li"}}
-                      {{ end }}
-                    </ul>
+                    <div class="slick--carousel">
+                        {{ range where .Data.Pages "Section" "selected_work" }}
+                          {{ .Render "li"}}
+                        {{ end }}
+                    </div>
                     <div class="modals-container">
                       {{ range where .Data.Pages "Section" "selected_work" }}
                         {{ .Render "modals"}}
                       {{ end }}
-                    </div>
-                    <div class="slider--prev">
-                      <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                      <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                        <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
-                        c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
-                        c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
-                      </g>
-                      </svg>
-                    </div>
-                    <div class="slider--next">
-                      <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                      <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                        <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                      </g>
-                      </svg>
                     </div>
                   </div>
                 </div>
@@ -53,32 +37,12 @@
                 <div class="about">
                   <div class="about--banner">
                     <h2 class="--title">We<br>believe in<br>awesome<br>design</h2>
-                    <a href="#career" class="md-trigger" data-modal="modal-career">
-                      Career
-                      <span>
-                        <svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                        <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                          <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                        </g>
-                        </svg>
-                      </span>
-                    </a>
-                    <div class="md-modal md-effect-18" id="modal-career">
-                      <div class="md-content">
-                        <h3>Career</h3>
-                        <div>
-                          <p>This is a modal window. You can do the following things with it:</p>
-                          <ul>
-                            <li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-                            <li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-                            <li><strong>Close:</strong> click on the button below to close the modal.</li>
-                          </ul>
-                        </div>
-                        <a class="md-close">
-                          <!--<i class="fa fa-close"></i>-->
-                        </a>
-                      </div>
-                    </div>
+                      {{ range where .Data.Pages "Section" "carrer" }}
+                        {{ .Render "li"}}
+                      {{ end }}
+                      {{ range where .Data.Pages "Section" "carrer" }}
+                        {{ .Render "modals"}}
+                      {{ end }}
                     <img src="/img/about-visual.png" alt="About Us">
                   </div>
                   <div class="about--options">

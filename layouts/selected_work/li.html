@@ -1,4 +1,4 @@
-<li class="slider--item slider--item-{{ .Params.Slider }}">
+<!--<li class="slider--item slider--item-{{ .Params.Slider }}">
   <a href="#{{ .Title }}" class="md-trigger" data-modal="modal-{{ .UniqueID }}">
     <div class="slider--item-image">
       <img src="{{ .Params.Image }}" alt="{{ .Title }}">
@@ -6,4 +6,11 @@
     <p class="slider--item-title">{{ .Title }}</p>
     <p class="slider--item-description">{{ .Description }}</p>
   </a>
-</li>
+</li>-->
+<a href="#{{ .Title }}" class="selected--work--item md-trigger" data-modal="modal-{{ .UniqueID }}">
+  <div class="selected--work--image">
+    <img src="{{ .Params.Image }}" alt="{{ .Title }}">
+  </div>
+  <h3 class="selected--work--title">{{ .Title }}</h3>
+  <!--<p class="selected--work--description">{{ .Description }}</p>-->
+</a>

@@ -16,7 +16,29 @@
     font-size: 30px
     text-align: center
 
-  &--lockup
+.selected--work--item
+  margin: 0 30px
+
+  & img
+    width: 100%
+    border: 10px solid #961017
+
+  & h3
+    color: #fff
+    position: relative
+    bottom: 25px
+    left: 10px
+    font-size: 16px
+    text-transform: uppercase
+    transition: bottom .2s ease-in-out, left .2s ease-in-out
+    clear: both
+
+.selected--work--item:hover > h3
+  position: relative
+  bottom: 15px
+
+
+/*  &--lockup
     position: relative
 
     .slider
@@ -111,7 +133,7 @@
       right: 0
 
     .slider--prev
-      left: 0
+      left: 0*/
 
 @media (max-width: 900px)
 
