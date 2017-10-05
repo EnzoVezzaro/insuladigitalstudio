@@ -4,7 +4,7 @@
  * The contents of this file are subject to the Mozilla Public License Version
  * 1.1 (the "License"); you may not use this file except in compliance with
  * the License. You may obtain a copy of the License at
- * http://www.mozilla.org/MPL/
+ * https://www.mozilla.org/MPL/
  *
  * Software distributed under the License is distributed on an "AS IS" basis,
  * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
@@ -57,7 +57,7 @@ var kNAMESPACE_RULE_POSITION = "@namespace rule invalid at this position in the 
 var kCHARSET_RULE_CHARSET_SOF = "@charset rule invalid at this position in the stylesheet";
 var kUNKNOWN_AT_RULE = "Unknow @-rule";
 
-/* FROM http://peter.sh/data/vendor-prefixed-css.php?js=1 */
+/* FROM https://peter.sh/data/vendor-prefixed-css.php?js=1 */
 
 var kENGINES = [
   "webkit",
@@ -437,7 +437,7 @@ var CssInspector = {
             token.isFunction("-moz-repeating-radial-gradient(")) {
           gradient.isRepeating = true;
         }
-        
+
 
         token = parser.getToken(true, true);
         var haveGradientLine = false;
@@ -691,7 +691,7 @@ var CssInspector = {
           blurRadius = "0px";
           spreadRadius = "0px"
           offsetX = "0px";
-          offsetY = "0px"; 
+          offsetY = "0px";
           token = parser.getToken(true, true);
         }
         else if (!token.isNotNull())
@@ -714,7 +714,7 @@ var CssInspector = {
 
     var shadows = [];
     var token = parser.getToken(true, true);
-    var color = "", blurRadius = "0px", offsetX = "0px", offsetY = "0px"; 
+    var color = "", blurRadius = "0px", offsetX = "0px", offsetY = "0px";
     while (token.isNotNull()) {
       if (token.isIdent("none")) {
         shadows.push( { none: true } );
@@ -790,7 +790,7 @@ var CssInspector = {
           color = "";
           blurRadius = "0px";
           offsetX = "0px";
-          offsetY = "0px"; 
+          offsetY = "0px";
           token = parser.getToken(true, true);
         }
         else if (!token.isNotNull())
@@ -898,7 +898,7 @@ var CssInspector = {
         return null;
     }
     else
-      return null; 
+      return null;
 
     token = parser.getToken(true, true);
     if (token.isNumber() || token.isPercentage())
@@ -1302,7 +1302,7 @@ CSSScanner.prototype = {
 	}
 	else {
 		while (c != -1
-			   && c != '{' 
+			   && c != '{'
 			   && c != ',') {
 			s += c;
 		  c = this.read();
@@ -1476,7 +1476,7 @@ CSSScanner.prototype = {
 
     if (this.isWhiteSpace(c)) {
       var s = this.eatWhiteSpace(c);
-      
+
       return new jscsspToken(jscsspToken.WHITESPACE_TYPE, s);
     }
 
@@ -1518,7 +1518,7 @@ function CSSParser(aString)
   this.mPreserveComments = true;
 
   this.mPreservedTokens = [];
-  
+
   this.mError = null;
 }
 
@@ -1553,7 +1553,7 @@ CSSParser.prototype = {
 
   kCOLOR_NAMES: {
     "transparent": true,
-  
+
     "black": true,
     "silver": true,
     "gray": true,
@@ -1570,7 +1570,7 @@ CSSParser.prototype = {
     "blue": true,
     "teal": true,
     "aqua": true,
-    
+
     "aliceblue": true,
     "antiquewhite": true,
     "aqua": true,
@@ -1718,7 +1718,7 @@ CSSParser.prototype = {
     "whitesmoke": true,
     "yellow": true,
     "yellowgreen": true,
-  
+
     "activeborder": true,
     "activecaption": true,
     "appworkspace": true,
@@ -1766,7 +1766,7 @@ CSSParser.prototype = {
     "circle": true,
     "square": true,
     "none": true,
-    
+
     /* CSS 3 */
     "box": true,
     "check": true,
@@ -2027,7 +2027,7 @@ CSSParser.prototype = {
       if (!media.length) {
         media.push("all");
       }
-  
+
       if (token.isSymbol(";")) {
         s += ";"
         this.forgetState();
@@ -2276,7 +2276,7 @@ CSSParser.prototype = {
           this.ungetToken();
         break;
       }
-  
+
       if (token.isIdent(this.kINHERIT)) {
         if (values.length) {
           return "";
@@ -2471,7 +2471,7 @@ CSSParser.prototype = {
         token = this.getToken(true, true);
         break;
       }
-      
+
       else {
         var color = this.parseColor(token);
         if (color)
@@ -2658,7 +2658,7 @@ CSSParser.prototype = {
       else if (!values.length && token.isIdent(this.kINHERIT)) {
         values.push(token.value);
       }
-      
+
       else if (token.isDimension()
                || token.isNumber("0")
                || (token.isIdent() && token.value in this.kBORDER_WIDTH_NAMES)) {
@@ -2731,7 +2731,7 @@ CSSParser.prototype = {
       else if (!values.length && token.isIdent(this.kINHERIT)) {
         values.push(token.value);
       }
-      
+
       else if (token.isIdent() && token.value in this.kBORDER_STYLE_NAMES) {
         values.push(token.value);
       }
@@ -3103,19 +3103,19 @@ CSSParser.prototype = {
                    && (token.value in kStyle)) {
             fStyle = token.value;
           }
-  
+
           else if (!fVariant
                    && token.isIdent()
                    && (token.value in kVariant)) {
             fVariant = token.value;
           }
-  
+
           else if (!fWeight
                    && (token.isIdent() || token.isNumber())
                    && (token.value in kWeight)) {
             fWeight = token.value;
           }
-  
+
           else if (!fSize
                    && ((token.isIdent() && (token.value in kSize))
                        || token.isDimension()
@@ -3324,7 +3324,7 @@ CSSParser.prototype = {
       if (!token.isSymbol(","))
         return "";
       color += ", ";
-  
+
       token = this.getToken(true, true);
       if (!token.isNumber() && !token.isPercentage())
         return "";
@@ -3333,30 +3333,30 @@ CSSParser.prototype = {
       if (!token.isSymbol(","))
         return "";
       color += ", ";
-  
+
       token = this.getToken(true, true);
       if (!token.isNumber() && !token.isPercentage())
         return "";
       color += token.value;
-  
+
       if (isRgba) {
         token = this.getToken(true, true);
         if (!token.isSymbol(","))
           return "";
         color += ", ";
-  
+
         token = this.getToken(true, true);
         if (!token.isNumber())
           return "";
         color += token.value;
       }
-  
+
       token = this.getToken(true, true);
       if (!token.isSymbol(")"))
         return "";
       color += token.value;
     }
-  
+
     else if (token.isFunction("hsl(")
              || token.isFunction("hsla(")) {
       color = token.value;
@@ -3369,7 +3369,7 @@ CSSParser.prototype = {
       if (!token.isSymbol(","))
         return "";
       color += ", ";
-  
+
       token = this.getToken(true, true);
       if (!token.isPercentage())
         return "";
@@ -3378,24 +3378,24 @@ CSSParser.prototype = {
       if (!token.isSymbol(","))
         return "";
       color += ", ";
-  
+
       token = this.getToken(true, true);
       if (!token.isPercentage())
         return "";
       color += token.value;
-  
+
       if (isHsla) {
         token = this.getToken(true, true);
         if (!token.isSymbol(","))
           return "";
         color += ", ";
-  
+
         token = this.getToken(true, true);
         if (!token.isNumber())
           return "";
         color += token.value;
       }
-  
+
       token = this.getToken(true, true);
       if (!token.isSymbol(")"))
         return "";
@@ -3637,7 +3637,7 @@ CSSParser.prototype = {
           this.ungetToken();
           break;
         }
-        else 
+        else
           if (token.isSymbol(",")) {
             key += ", ";
           }
@@ -3931,7 +3931,7 @@ CSSParser.prototype = {
   {
     var s = "";
     var specificity = {a: 0, b: 0, c: 0, d: 0}; // CSS 2.1 section 6.4.3
-    
+
     if (isFirstInChain
         && (token.isSymbol("*") || token.isSymbol("|") || token.isIdent())) {
       // type or universal selector
@@ -3971,7 +3971,7 @@ CSSParser.prototype = {
           return null;
       }
     }
-  
+
     else if (token.isSymbol(".") || token.isSymbol("#")) {
       var isClass = token.isSymbol(".");
       s += token.value;
@@ -4033,7 +4033,7 @@ CSSParser.prototype = {
         }
       } else
         return null;
-  
+
     } else if (token.isSymbol("[")) {
       s += "[";
       token = this.getToken(true, true);
@@ -4059,7 +4059,7 @@ CSSParser.prototype = {
       }
       else
         return null;
-  
+
       // nothing, =, *=, $=, ^=, |=
       token = this.getToken(true, true);
       if (token.isIncludes()
@@ -4076,7 +4076,7 @@ CSSParser.prototype = {
         }
         else
           return null;
-    
+
         if (token.isSymbol("]")) {
           s += token.value;
           specificity.c++;
@@ -4090,7 +4090,7 @@ CSSParser.prototype = {
       }
       else
         return null;
-        
+
     }
     else if (token.isWhiteSpace()) {
       var t = this.lookAhead(true, true);
@@ -4442,7 +4442,7 @@ jscsspStylesheet.prototype = {
           return true;
       return false;
     }
-    
+
     for (var i = 0; i < this.cssRules.length; i++)
     {
       var rule = this.cssRules[i];
@@ -4450,7 +4450,7 @@ jscsspStylesheet.prototype = {
         break;
       else if (rule.type == kJscsspVARIABLES_RULE &&
                (!rule.media.length || ItemFoundInArray(rule.media, aMedium))) {
-        
+
         for (var j = 0; j < rule.declarations.length; j++) {
           var valueText = "";
           for (var k = 0; k < rule.declarations[j].values.length; k++)
@@ -4499,7 +4499,7 @@ jscsspCharsetRule.prototype = {
 
 function jscsspErrorRule(aErrorMsg)
 {
-  this.error = aErrorMsg ? aErrorMsg : "INVALID"; 
+  this.error = aErrorMsg ? aErrorMsg : "INVALID";
   this.type = kJscsspUNKNOWN_RULE;
   this.parsedCssText = null;
   this.parentStyleSheet = null;
@@ -4560,7 +4560,7 @@ function jscsspImportRule()
   this.type = kJscsspIMPORT_RULE;
   this.parsedCssText = null;
   this.href = null;
-  this.media = []; 
+  this.media = [];
   this.parentStyleSheet = null;
   this.parentRule = null;
 }
@@ -5127,7 +5127,7 @@ function ParseURL(buffer) {
       if(buffer.charAt(start) == ':') {
         section = "AFTER_PROTOCOL";
         start++;
-      } else if(buffer.charAt(start) == '/' && result.protocol.length() == 0) { 
+      } else if(buffer.charAt(start) == '/' && result.protocol.length() == 0) {
         section = PATH;
       } else {
         result.protocol += buffer.charAt(start++);
@@ -5143,7 +5143,7 @@ function ParseURL(buffer) {
         start ++;
       } else {
         throw new ParseException("Protocol shell be separated with 2 slashes");
-      }       
+      }
     } else if(section == "USER") {
       if(buffer.charAt(start) == '/') {
         result.host = result.user;

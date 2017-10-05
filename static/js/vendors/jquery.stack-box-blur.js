@@ -2,7 +2,7 @@
  * Blur.js (jQuery module)
  *
  * @see {@link https://github.com/jakiestfu/Blur.js|GitHub}
- * @see {@link http://blurjs.com/}
+ * @see {@link https://blurjs.com/}
  * @author Jacob Kelley <jakie8@gmail.com>, Cezary Daniel Nowak <cezary.nowak@gmail.com>
  * @license MIT
  */
@@ -17,7 +17,7 @@ StackBoxBlur - a fast almost Box Blur For Canvas
 Version:  0.3
 Author:   Mario Klingemann
 Contact:  mario@quasimondo.com
-Website:  http://www.quasimondo.com/
+Website:  https://www.quasimondo.com/
 Twitter:  @quasimondo
 */
 
