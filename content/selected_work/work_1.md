@@ -7,7 +7,7 @@
         "Portfolio"
     ],
     "slug": "vapecloudshop",
-    "image": "/img/vape-cloud-shop.jpg",
+    "image": "https://s3.us-east-2.amazonaws.com/insuladigitalstudio/assets/img/projects/vape-cloud-shop.jpg",
     "slider": "left",
     "scope": "Our client wanted an easy manageable site where being able to structure his business strategy and marketing Plan.",
     "lenght": "2 Months",
