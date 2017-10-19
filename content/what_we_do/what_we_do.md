@@ -24,5 +24,5 @@
     "descIdeasImg": "Creating Ideas for your Business, whatever that is",
     "descMarketingImg": "We provide marketing products to make your product stand out",
     "descWebDesignImg": "From the color schema to the coding, we provide ALL",
-    "descWebImg": "Coding, coding, coding. PS (Only on ATOM)"
+    "descWebImg": "Coding, coding, coding. We're Atom lovers!"
 }

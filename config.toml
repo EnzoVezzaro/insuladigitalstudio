@@ -6,16 +6,15 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Insula Digital Studio"
 canonifyURLs = true
-googleAnalytics= ""
+googleAnalytics= "UA-108384646-1"
 
 [taxonomies]
   category = "categories"
   tag = "tags"
 
 [params]
-  title = "Insula Digital Studio"
-  description = "Crafting Digital Experience"
-  author = "Enzo Vezzaro"
-  variables = "Yes"
   english = "EN"
   logo = "/img/logo.svg"
+  keywords = "insula digital studio, web development, web design, digital studio"
+  author = "Enzo Vezzaro"
+  description = "Crafting Digital Experience"

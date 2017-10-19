@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ .Site.LanguageCode }}">
   <head>
-    {{ partial "head.html" }}
+    {{ partial "head.html" . }}
   </head>
   <body>
-    {{ partial "device-notification.html" }}
+    {{ partial "device-notification.html" . }}
     <div class="perspective effect-rotate-left">
       <div class="container">
         <div class="outer-nav--return"></div>
         <div id="viewport" class="l-viewport">
           <div class="l-wrapper">
-            {{ partial "header.html" }}
-            {{ partial "nav.html" }}
+            {{ partial "header.html" . }}
+            {{ partial "nav.html" . }}
             <ul class="l-main-content main-content">
-              {{ partial "intro.html" }}
+              {{ partial "intro.html" . }}
               <!-- Selected Work -->
               <li class="l-section section">
                 <div class="work">
@@ -61,15 +61,15 @@
                   </div>
                 </div>
               </li>
-              {{ partial "contact.html" }}
-              {{ partial "hire-us.html" }}
+              {{ partial "contact.html" . }}
+              {{ partial "hire-us.html" . }}
             </ul>
           </div>
         </div>
       </div>
       <div class="md-overlay"></div>
-      {{ partial "outer-nav.html" }}
+      {{ partial "outer-nav.html" . }}
     </div>
-    {{ partial "scripts.html" }}
+    {{ partial "scripts.html" . }}
   </body>
 </html>
