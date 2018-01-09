@@ -7,7 +7,7 @@
         "Portfolio"
     ],
     "slug": "eligetupresidenterd",
-    "image": "https://s3.us-east-2.amazonaws.com/insuladigitalstudio/assets/img/projects/elige-tu-presidente.jpg",
+    "image": "/img/elige-tu-presidente.jpg",
     "scope": "The goal of the questionary was to register online and vote for your favorite candidate in the Presidential Election.",
     "lenght": "3 Months",
     "tech": "HTML, CSS, JAVASCRIPT, FIREBASE, JQUERY",

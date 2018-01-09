@@ -7,7 +7,7 @@
         "Portfolio"
     ],
     "slug": "artprojectunited",
-    "image": "https://s3.us-east-2.amazonaws.com/insuladigitalstudio/assets/img/projects/art-project-united.jpg",
+    "image": "/img/art-project-united.jpg",
     "scope": "---",
     "lenght": "4-5 Months",
     "tech": "HUGO, HTML5, CSS, JAVASCRIPT, Adobe Suite, Mailchimp",

@@ -7,7 +7,7 @@
         "Portfolio"
     ],
     "slug": "cannalliance",
-    "image": "https://s3.us-east-2.amazonaws.com/insuladigitalstudio/assets/img/projects/cannalliance.jpg",
+    "image": "/img/cannalliance.jpg",
     "scope": "Building a community centric website where growers and producers can find the reliable information they need.",
     "lenght": "2 Weeks",
     "tech": "Wordpress",

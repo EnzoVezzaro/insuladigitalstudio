@@ -7,7 +7,7 @@
         "Portfolio"
     ],
     "slug": "vocesdelacalle",
-    "image": "https://s3.us-east-2.amazonaws.com/insuladigitalstudio/assets/img/projects/voces-de-la-calle.jpg",
+    "image": "/img/voces-de-la-calle.jpg",
     "scope": "Presenting in an outstanding way the newly release movie focusing on the Urban Style that its characterized.",
     "lenght": "6 Months",
     "tech": "Wordpress, PHP, Adobe Suite, Analytics, Mailchimp",
